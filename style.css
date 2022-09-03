@@ -124,18 +124,6 @@ body
 {
     display: block;
 }
-.bg
-{
-    display: flex;
-    background: var(--primary-soft-violet);
-    border-radius: 10px 10px 0 0;
-    width: 347px;
-    height: 255px;
-    position: absolute;
-    top: 64px;
-    z-index: 2;
-    mix-blend-mode: multiply;
-}
 .attribution
 {
     display: flex;
@@ -188,14 +176,6 @@ body
     {
         display: block;
         border-radius: 0 10px 10px 0;
-        height: 440px;
-    }
-    .bg
-    {
-        border-radius: 0 10px 10px 0;
-        top: 106px;
-        right: 116px;
-        width: 523px;
         height: 440px;
     }
 }
